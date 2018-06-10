@@ -1,2 +1,2 @@
-# medienpsycho
-TU Dresden Medienpsychologie-Lernspiel-Gruppenprojekt
+# Medienpsychologie Lernspiel
+TU Dresden Medienpsychologie Gruppenprojekt
