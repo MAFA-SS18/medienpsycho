@@ -6,18 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/welcome.unity
+    guid: 6993ce3f4ae2e46429c7d69d3bb5d9b6
+  - enabled: 1
+    path: Assets/Scenes/Arktis.unity
+    guid: 66f521a912c083847854f6392dbc9514
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Level2.unity
-    guid: 4a754fc10233d4540a034afcd5059edc
-  - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: bf98f0ef58bec684db607a745233fa89
-  - enabled: 1
-    path: Assets/Scenes/Level4.unity
-    guid: 7dca69c9df235fd4396a09af3c168d5f
-  - enabled: 1
-    path: Assets/Scenes/Level5.unity
-    guid: f8f181588a4ad21458652d8edea744bc
   m_configObjects: {}

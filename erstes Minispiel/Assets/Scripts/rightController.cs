@@ -10,7 +10,7 @@ public class rightController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        rb.AddForce(new Vector2(-5,0));
+        rb.AddForce(new Vector2(-4,0));
 		
 	}
 
