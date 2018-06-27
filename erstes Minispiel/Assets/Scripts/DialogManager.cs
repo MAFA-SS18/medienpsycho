@@ -8,12 +8,15 @@ public class DialogManager : MonoBehaviour {
     public Text dialogText;
     private Queue<string> sentences;
     public Animator animator;
+    
 
 	// Use this for initialization
 	void Start () {
         
         sentences = new Queue<string>();
-	}
+        GameObject.Find("DialogManager").GetComponent<DialogTrigger>().TriggerDialog();
+
+    }
 
     public void StartDialog(Dialog dialog)
     {

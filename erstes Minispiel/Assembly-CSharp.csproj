@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\greenController.cs" />
     <Compile Include="Assets\Scripts\homeController.cs" />
+    <Compile Include="Assets\Scripts\ImageTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\redController.cs" />
     <Compile Include="Assets\Scripts\rightController.cs" />
