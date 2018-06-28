@@ -2,21 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ImageTrigger : MonoBehaviour {
 
     public Image image;
+    public Image image1;
     public Button button;
+    public bool firstTime = true;
 
-    public void TriggerImage()
+    public void TriggerImageWhite()
     {
         image.enabled = true;
         button.enabled = true;
     }
 
+    public void TriggerImageBlack()
+    {
+        image1.enabled = true;
+        button.enabled = true;
+    }
+
     public void CloseImage()
     {
-        image.enabled = false;
+        if (image.enabled == true)
+        {
+            image.enabled = false;
+            if (firstTime == true)
+            {
+            GameObject.Find("DialogManager").GetComponent<DialogManager>().DisplayNextSentence2();
+            }
+            firstTime = false;
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        
         button.enabled = false;
     }
 }

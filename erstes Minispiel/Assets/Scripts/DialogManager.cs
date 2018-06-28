@@ -8,6 +8,8 @@ public class DialogManager : MonoBehaviour {
     public Text dialogText;
     private Queue<string> sentences;
     public Animator animator;
+    public Button robbe;
+    public Button pinguin;
     
 
 	// Use this for initialization
@@ -33,9 +35,30 @@ public class DialogManager : MonoBehaviour {
 
     public void DisplayNextSentence()
     {
+        if (sentences.Count == 2)
+        {
+            EndDialog();
+            robbe.enabled = true;
+            return;
+        }
+
         if (sentences.Count == 0)
         {
             EndDialog();
+            pinguin.enabled = true;
+            return;
+        }
+        string sentence = sentences.Dequeue();
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+    }
+    public void DisplayNextSentence2()
+    {
+        animator.SetBool("IsOpen", true);
+        if (sentences.Count == 0)
+        {
+            EndDialog();
+            pinguin.enabled = true;
             return;
         }
         string sentence = sentences.Dequeue();

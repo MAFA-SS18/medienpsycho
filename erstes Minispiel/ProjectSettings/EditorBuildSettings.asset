@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Arktis.unity
     guid: 66f521a912c083847854f6392dbc9514
   - enabled: 1
+    path: Assets/Scenes/ArktisComplete.unity
+    guid: 6074bf17af79ae74cb8fe7cd635844a4
+  - enabled: 1
+    path: "Assets/Scenes/W\xFCsteEinf\xFChrung.unity"
+    guid: 5e30d50df6a83704baf78ab3b3a9b708
+  - enabled: 1
+    path: Assets/Scenes/IttelBlackWhite.unity
+    guid: 4af438a3ff807d841a276c37a3656326
+  - enabled: 1
+    path: "Assets/Scenes/W\xFCste.unity"
+    guid: 755e8184aca098742b4f78b8edd63589
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
