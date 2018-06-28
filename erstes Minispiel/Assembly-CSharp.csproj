@@ -56,7 +56,9 @@
      <Compile Include="Assets\Scripts\blueController.cs" />
      <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\DialogManager.cs" />
+     <Compile Include="Assets\Scripts\DialogManager1.cs" />
      <Compile Include="Assets\Scripts\DialogTrigger.cs" />
+     <Compile Include="Assets\Scripts\DialogTrigger1.cs" />
      <Compile Include="Assets\Scripts\EndController.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\greenController.cs" />

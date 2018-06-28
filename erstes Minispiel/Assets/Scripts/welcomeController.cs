@@ -9,4 +9,9 @@ public class welcomeController : MonoBehaviour {
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void LoadIttenSW()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
