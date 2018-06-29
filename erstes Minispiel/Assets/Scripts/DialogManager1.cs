@@ -13,6 +13,8 @@ public class DialogManager1 : MonoBehaviour {
     public Button black;
     public Button white;
     public Button red;
+    public Button yellow;
+    public Button blue;
     public bool redbool = false;
     public bool yellowbool = false;
     public bool bluebool = false;
@@ -48,6 +50,8 @@ public class DialogManager1 : MonoBehaviour {
             black.enabled = true;
             white.enabled = true;
             red.enabled = true;
+            yellow.enabled = true;
+            blue.enabled = true;
             return;
         }
         string sentence = sentences.Dequeue();

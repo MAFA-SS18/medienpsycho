@@ -9,6 +9,8 @@ public class ImageTrigger : MonoBehaviour {
     public Image image;
     public Image image1;
     public Image image2;
+    public Image image3;
+    public Image image4;
     public Button button;
     public bool firstTime = true;
 
@@ -27,6 +29,18 @@ public class ImageTrigger : MonoBehaviour {
     public void TriggerRed()
     {
         image2.enabled = true;
+        button.enabled = true;
+    }
+
+    public void Triggerimage3()
+    {
+        image3.enabled = true;
+        button.enabled = true;
+    }
+
+    public void Triggerimage4()
+    {
+        image4.enabled = true;
         button.enabled = true;
     }
 
@@ -67,6 +81,18 @@ public class ImageTrigger : MonoBehaviour {
         image.enabled = false;
         image1.enabled = false;
         image2.enabled = false;
+        image3.enabled = false;
+        image4.enabled = false;
+        button.enabled = false;
+    }
+
+    public void CloseImage3()
+    {
+        image.enabled = false;
+        image1.enabled = false;
+        image2.enabled = false;
+        image3.enabled = false;
+        image4.enabled = false;
         button.enabled = false;
     }
 }
