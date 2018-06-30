@@ -6,33 +6,57 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/welcome.unity
+    path: Assets/Scenes/00 welcome.unity
     guid: 6993ce3f4ae2e46429c7d69d3bb5d9b6
   - enabled: 1
-    path: Assets/Scenes/Arktis.unity
+    path: Assets/Scenes/01 Arktis.unity
     guid: 66f521a912c083847854f6392dbc9514
   - enabled: 1
-    path: Assets/Scenes/ArktisComplete.unity
+    path: Assets/Scenes/01.1 ArktisComplete.unity
     guid: 6074bf17af79ae74cb8fe7cd635844a4
   - enabled: 1
-    path: "Assets/Scenes/W\xFCsteEinf\xFChrung.unity"
+    path: "Assets/Scenes/02 W\xFCsteEinf\xFChrung.unity"
     guid: 5e30d50df6a83704baf78ab3b3a9b708
   - enabled: 1
-    path: Assets/Scenes/IttelBlackWhite.unity
+    path: Assets/Scenes/02.1 IttelBlackWhite.unity
     guid: 4af438a3ff807d841a276c37a3656326
   - enabled: 1
-    path: "Assets/Scenes/W\xFCste.unity"
+    path: "Assets/Scenes/02.2 W\xFCste.unity"
     guid: 82b5bac4c9665dd43a7a4f839a02d188
   - enabled: 1
-    path: Assets/Scenes/IttenPrim.unity
+    path: Assets/Scenes/02.4 IttenPrim.unity
     guid: 761f8e426910c1445b5173477ae2df22
   - enabled: 1
-    path: "Assets/Scenes/W\xFCsteComplete.unity"
+    path: "Assets/Scenes/02.3 W\xFCsteComplete.unity"
     guid: 3c0a1c69548a6d24e8589570a30753b5
   - enabled: 1
-    path: Assets/Scenes/Dschungel.unity
+    path: Assets/Scenes/03 Dschungel.unity
     guid: 1eb035692ab38894fa422d82bff650a2
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/03.1 IttenPrimMix.unity
+    guid: 1eff511cbb775ed40aeeaf38f92843b7
+  - enabled: 1
+    path: Assets/Scenes/03.2 DschungelCompleted.unity
+    guid: bb7b1faa1f9f57c47bd0825fa0710225
+  - enabled: 1
+    path: Assets/Scenes/03.3 Minispiel 2.unity
+    guid: 48a7f1ff89b756a49b3ce5be2130b058
+  - enabled: 1
+    path: Assets/Scenes/04 IttenWohnung.unity
+    guid: aec7750930647ea48918c243271b3126
+  - enabled: 1
+    path: Assets/Scenes/04.1 IttensKreis.unity
+    guid: e8b8cae90d3a93c4fbaf6b8367c36da3
+  - enabled: 1
+    path: Assets/Scenes/04.2 IttenWohnung 1.unity
+    guid: fe9543f3637d5944295f7f2e96dffa57
+  - enabled: 1
+    path: Assets/Scenes/04.3 Ausmalen.unity
+    guid: 2b78ac924ff4976458db04c79bedda73
+  - enabled: 1
+    path: Assets/Scenes/04.4 IttenFull.unity
+    guid: 18010489f5b784a4ab262114cc75aca1
+  - enabled: 1
+    path: Assets/Scenes/02.5 Minispiel 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
