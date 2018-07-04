@@ -15,6 +15,11 @@ public class welcomeController : MonoBehaviour {
         SceneManager.LoadScene(4);
     }
 
+    public void LoadIttenPrim()
+    {
+        SceneManager.LoadScene(6);
+    }
+
     public void GoToScene(int number)
     {
         SceneManager.LoadScene(number);

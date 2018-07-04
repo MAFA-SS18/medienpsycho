@@ -472,6 +472,8 @@ MonoBehaviour:
   image: {fileID: 1383636868}
   image1: {fileID: 1019687676}
   image2: {fileID: 1898199866}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
   button: {fileID: 220518464}
   firstTime: 1
 --- !u!1 &325730622
@@ -510,6 +512,8 @@ MonoBehaviour:
   black: {fileID: 1385643302}
   white: {fileID: 714640233}
   red: {fileID: 497236035}
+  yellow: {fileID: 0}
+  blue: {fileID: 0}
   redbool: 0
   yellowbool: 0
   bluebool: 0
@@ -558,8 +562,7 @@ MonoBehaviour:
   dialog:
     name: Leon
     sentences:
-    - 'Wusstest du schon, dass ich hier wohne?
-      Endlich bin ich zu Hause.'
+    - Wusstest du schon, dass ich hier wohne? Endlich bin ich zu Hause.
 --- !u!1 &434397604
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +615,8 @@ MonoBehaviour:
   image: {fileID: 1383636868}
   image1: {fileID: 0}
   image2: {fileID: 0}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
   button: {fileID: 220518464}
   firstTime: 1
 --- !u!114 &434397607
@@ -840,6 +845,8 @@ MonoBehaviour:
   image: {fileID: 1383636868}
   image1: {fileID: 1019687676}
   image2: {fileID: 1898199866}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
   button: {fileID: 220518464}
   firstTime: 1
 --- !u!114 &497236035
@@ -986,7 +993,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 701548274}
-        m_MethodName: LoadIttenSW
+        m_MethodName: LoadIttenPrim
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1113,6 +1120,8 @@ MonoBehaviour:
   image: {fileID: 1383636868}
   image1: {fileID: 1019687676}
   image2: {fileID: 1898199866}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
   button: {fileID: 220518464}
   firstTime: 1
 --- !u!114 &714640233
@@ -1922,6 +1931,8 @@ MonoBehaviour:
   image: {fileID: 1383636868}
   image1: {fileID: 1019687676}
   image2: {fileID: 1898199866}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
   button: {fileID: 220518464}
   firstTime: 1
 --- !u!114 &1385643302
