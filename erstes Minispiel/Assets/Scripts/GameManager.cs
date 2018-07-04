@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
 
-       // CompleteLevelUI.SetActive(true);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         while (loop == 0) {
             int prefeb_num = Random.Range(0, 6);
             yield return new WaitForSeconds(1.7f);
-            Instantiate(colors[prefeb_num], new Vector3(10, -3, 0), rotation); }
+            Instantiate(colors[prefeb_num], new Vector3(10, -2, 0), rotation); }
     }
 
     public void level01()
