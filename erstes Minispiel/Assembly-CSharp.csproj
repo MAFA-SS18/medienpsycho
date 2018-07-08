@@ -62,25 +62,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\animateGif.cs" />
-    <Compile Include="Assets\Scripts\blueController.cs" />
-    <Compile Include="Assets\Scripts\Dialog.cs" />
-    <Compile Include="Assets\Scripts\DialogManager.cs" />
-    <Compile Include="Assets\Scripts\DialogManager1.cs" />
-    <Compile Include="Assets\Scripts\DialogTrigger.cs" />
-    <Compile Include="Assets\Scripts\DialogTrigger1.cs" />
-    <Compile Include="Assets\Scripts\EndController.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\greenController.cs" />
-    <Compile Include="Assets\Scripts\homeController.cs" />
+    <Compile Include="Assets\Scripts\Dialog\Dialog.cs" />
+    <Compile Include="Assets\Scripts\Dialog\DialogManager.cs" />
+    <Compile Include="Assets\Scripts\Dialog\DialogManager1.cs" />
+    <Compile Include="Assets\Scripts\Dialog\DialogTrigger.cs" />
+    <Compile Include="Assets\Scripts\Dialog\DialogTrigger1.cs" />
+    <Compile Include="Assets\Scripts\DragnDrop\DragHandler.cs" />
+    <Compile Include="Assets\Scripts\DragnDrop\Slot.cs" />
+    <Compile Include="Assets\Scripts\Hover.cs" />
     <Compile Include="Assets\Scripts\ImageTrigger.cs" />
     <Compile Include="Assets\Scripts\ImageTrigger1.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\redController.cs" />
-    <Compile Include="Assets\Scripts\rightController.cs" />
-    <Compile Include="Assets\Scripts\violettController.cs" />
-    <Compile Include="Assets\Scripts\welcomeController.cs" />
-    <Compile Include="Assets\Scripts\wrongController.cs" />
-    <Compile Include="Assets\Scripts\yellowController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\blueController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\EndController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\GameManager.cs" />
+    <Compile Include="Assets\Scripts\minispiel\greenController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\homeController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\redController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\rightController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\violettController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\welcomeController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\wrongController.cs" />
+    <Compile Include="Assets\Scripts\minispiel\yellowController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ahmad/Documents/Github/medienpsycho/erstes Minispiel/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
