@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/04.1 IttensKreis.unity
-=======
-- path: Assets/Scenes/05 Final.unity
->>>>>>> 58f3b7146314c4312c6ebb5a4dd10c6a5304a491
+- path: Assets/Scenes/00 welcome.unity
   isLoaded: 1
   isActive: 1
