@@ -1,6 +1,6 @@
-WebGL
+WindowsStandalone
 PlayerPath?
-C:/Users/ahmad/Dropbox/Psycho/colorcycle
+C:/Users/ahmad/Dropbox/Psycho/colorcyclePRTOT/colorcyclePRTOT.exe
 SceneListBegin?
 Assets/Scenes/00 welcome.unity
 Assets/Scenes/01 Arktis.unity

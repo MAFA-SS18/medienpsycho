@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/03.1 IttenPrimMix.unity
+- path: Assets/Scenes/03 Dschungel.unity
   isLoaded: 1
   isActive: 1

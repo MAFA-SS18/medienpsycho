@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/02.4 IttenPrim.unity
     guid: 761f8e426910c1445b5173477ae2df22
   - enabled: 1
+    path: Assets/Scenes/02.5 MinispielIntro.unity
+    guid: 0b370528596f9e44199661c2f5da9e5e
+  - enabled: 1
+    path: Assets/Scenes/02.5 Minispiel 1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: "Assets/Scenes/02.3 W\xFCsteComplete.unity"
     guid: 3c0a1c69548a6d24e8589570a30753b5
   - enabled: 1
@@ -38,12 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/03.2 DschungelCompleted.unity
     guid: bb7b1faa1f9f57c47bd0825fa0710225
-  - enabled: 1
-    path: Assets/Scenes/02.5 MinispielIntro.unity
-    guid: 0b370528596f9e44199661c2f5da9e5e
-  - enabled: 1
-    path: Assets/Scenes/02.5 Minispiel 1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/04 IttenWohnung.unity
     guid: aec7750930647ea48918c243271b3126
