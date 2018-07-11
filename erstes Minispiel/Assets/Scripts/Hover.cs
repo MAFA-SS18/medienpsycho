@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class Hover : MonoBehaviour {
+public class Hover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     public string clickedOjbectName;
 
-    void OnMouseEnter()
+    void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
     {
-        print("Mouse is over GameObject.");
-        Debug.Log("Mouse is over GameObject.");
+        GameObject.Find(clickedOjbectName).GetComponent<Image>().enabled = true;
     }
 
-    void OnMouseExit()
+    void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
     {
+        GameObject.Find(clickedOjbectName).GetComponent<Image>().enabled = false;
     }
 }
