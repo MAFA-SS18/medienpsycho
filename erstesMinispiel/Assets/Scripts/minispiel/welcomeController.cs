@@ -24,6 +24,14 @@ public class welcomeController : MonoBehaviour {
     {
         SceneManager.LoadScene(9);
     }
+    public void LoadFirstGame()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void LoadSecondGame()
+    {
+        SceneManager.LoadScene(16);
+    }
 
     public void SkipGame()
     {
