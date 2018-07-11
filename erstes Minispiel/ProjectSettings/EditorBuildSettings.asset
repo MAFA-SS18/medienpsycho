@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/03.2 DschungelCompleted.unity
     guid: bb7b1faa1f9f57c47bd0825fa0710225
   - enabled: 1
+    path: Assets/Scenes/02.5 MinispielIntro.unity
+    guid: 0b370528596f9e44199661c2f5da9e5e
+  - enabled: 1
     path: Assets/Scenes/02.5 Minispiel 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -57,6 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/04.4 IttenFull.unity
     guid: 18010489f5b784a4ab262114cc75aca1
   - enabled: 0
-    path: Assets/Scenes/03.3 Minispiel 2.unity
-    guid: 48a7f1ff89b756a49b3ce5be2130b058
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

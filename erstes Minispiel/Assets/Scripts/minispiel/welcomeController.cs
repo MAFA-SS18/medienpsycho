@@ -20,6 +20,16 @@ public class welcomeController : MonoBehaviour {
         SceneManager.LoadScene(6);
     }
 
+    public void LoadIttenSek()
+    {
+        SceneManager.LoadScene(9);
+    }
+
+    public void SkipGame()
+    {
+        SceneManager.LoadScene(13);
+    }
+
     public void GoToScene(int number)
     {
         SceneManager.LoadScene(number);
