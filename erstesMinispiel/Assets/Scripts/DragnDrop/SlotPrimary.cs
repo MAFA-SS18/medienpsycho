@@ -28,36 +28,42 @@ public class SlotPrimary : MonoBehaviour, IDropHandler
             return null;
         }
     }
-    public Image image;
+    private string objectName;
+    private string draggedItemName;
+    private GameObject draggedItem;
 
     public void OnDrop(PointerEventData eventData)
     {
-        if (transform.gameObject.name == "orange")
+        objectName = transform.gameObject.name;
+        draggedItem = DragHandler.itemBeingDragged;
+        draggedItemName = draggedItem.name;
+
+        if (objectName == "orange")
         {
-            if(DragHandler.itemBeingDragged.name.Contains("red") || DragHandler.itemBeingDragged.name.Contains("yellow"))
+            if(draggedItemName.Contains("red") || draggedItemName.Contains("yellow"))
             {
-                DragHandler.itemBeingDragged.transform.SetParent(transform);
+                draggedItem.transform.SetParent(transform);
             }
         }
-        if (transform.gameObject.name == "violett")
+        if (objectName == "violett")
         {
-            if (DragHandler.itemBeingDragged.name.Contains("red") || DragHandler.itemBeingDragged.name.Contains("blue"))
+            if (draggedItemName.Contains("red") || draggedItemName.Contains("blue"))
             {
-                DragHandler.itemBeingDragged.transform.SetParent(transform);
+                draggedItem.transform.SetParent(transform);
             }
         }
-        if (transform.gameObject.name == "green")
+        if (objectName == "green")
         {
-            if (DragHandler.itemBeingDragged.name.Contains("yellow") || DragHandler.itemBeingDragged.name.Contains("blue"))
+            if (draggedItemName.Contains("yellow") || draggedItemName.Contains("blue"))
             {
-                DragHandler.itemBeingDragged.transform.SetParent(transform);
+                draggedItem.transform.SetParent(transform);
             }
         }
 
         if (transform.childCount == 2)
         {
             transform.gameObject.SetActive(false);
-            GameObject.Find(transform.name + "New").GetComponent<Image>().enabled = true;
+            GameObject.Find(objectName + "New").GetComponent<Image>().enabled = true;
         }
         if (GameObject.Find("Draggables2").transform.childCount == 0)
         {
@@ -66,6 +72,7 @@ public class SlotPrimary : MonoBehaviour, IDropHandler
             this.SetActiveAllChildren(GameObject.Find("AfterTutorial").transform, false);
             GameObject.Find("Image").SetActive(false);
             GameObject.Find("ImageComplete").GetComponent<Image>().enabled = true;
+            this.SetActiveAllChildren(GameObject.Find("AfterMixing").transform, true);
         }
     }
     private void SetActiveAllChildren(Transform transform, bool value)

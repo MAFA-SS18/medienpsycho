@@ -27,7 +27,7 @@ public class welcomeController : MonoBehaviour {
 
     public void SkipGame()
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void GoToScene(int number)

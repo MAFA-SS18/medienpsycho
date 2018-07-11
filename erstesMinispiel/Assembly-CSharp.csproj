@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\DragnDrop\DragHandler.cs" />
     <Compile Include="Assets\Scripts\DragnDrop\Slot.cs" />
     <Compile Include="Assets\Scripts\DragnDrop\SlotPrimary.cs" />
+    <Compile Include="Assets\Scripts\DragnDrop\SlotTet.cs" />
     <Compile Include="Assets\Scripts\Hover.cs" />
     <Compile Include="Assets\Scripts\ImageTrigger.cs" />
     <Compile Include="Assets\Scripts\ImageTrigger1.cs" />
