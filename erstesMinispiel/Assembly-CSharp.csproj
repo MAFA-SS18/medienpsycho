@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Dialog\DialogTrigger1.cs" />
     <Compile Include="Assets\Scripts\DragnDrop\DragHandler.cs" />
     <Compile Include="Assets\Scripts\DragnDrop\Slot.cs" />
+    <Compile Include="Assets\Scripts\DragnDrop\SlotMalen.cs" />
     <Compile Include="Assets\Scripts\DragnDrop\SlotPrimary.cs" />
     <Compile Include="Assets\Scripts\DragnDrop\SlotTet.cs" />
     <Compile Include="Assets\Scripts\Hover.cs" />
