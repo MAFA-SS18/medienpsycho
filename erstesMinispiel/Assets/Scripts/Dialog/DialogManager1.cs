@@ -18,6 +18,8 @@ public class DialogManager1 : MonoBehaviour {
     public bool redbool = false;
     public bool yellowbool = false;
     public bool bluebool = false;
+    public GameObject obj;
+    public GameObject next;
 
 
     // Use this for initialization
@@ -57,6 +59,16 @@ public class DialogManager1 : MonoBehaviour {
             yellow.enabled = true;
             blue.enabled = true;
             return;
+        }
+        if (obj)
+        {
+            if(obj.name == "Draggables")
+            {
+                if(sentences.Count == 4 || sentences.Count == 3)
+                {
+                    next.GetComponent<Image>().enabled = false;
+                }
+            }
         }
         string sentence = sentences.Dequeue();
         StopAllCoroutines();

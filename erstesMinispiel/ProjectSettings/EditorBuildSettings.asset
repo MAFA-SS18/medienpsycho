@@ -54,9 +54,12 @@ EditorBuildSettings:
     path: Assets/Scenes/04.2 IttenWohnung 1.unity
     guid: fe9543f3637d5944295f7f2e96dffa57
   - enabled: 1
-    path: Assets/Scenes/04.3 Ausmalen.unity
-    guid: 2b78ac924ff4976458db04c79bedda73
+    path: Assets/Scenes/04.3 AusmalenIntro.unity
+    guid: 43988ff93a9dbbe45b34e62d715a9213
   - enabled: 1
+    path: Assets/Scenes/04.4 Ausmalen.unity
+    guid: 2b78ac924ff4976458db04c79bedda73
+  - enabled: 0
     path: Assets/Scenes/04.4 IttenFull.unity
     guid: 18010489f5b784a4ab262114cc75aca1
   - enabled: 1

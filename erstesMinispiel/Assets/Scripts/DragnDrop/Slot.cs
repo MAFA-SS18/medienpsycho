@@ -31,6 +31,7 @@ public class Slot : MonoBehaviour, IDropHandler {
     public void OnDrop(PointerEventData eventData)
     {
         DragHandler.itemBeingDragged.transform.SetParent(transform);
+        GameObject.Find("Weiter").GetComponent<Image>().enabled = true;
         if(transform.childCount == 2)
         {
             GameObject.Find("grayNew").GetComponent<Image>().enabled = true;

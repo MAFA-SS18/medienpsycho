@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/04.3 Ausmalen.unity
-=======
 - path: Assets/Scenes/02.5 Minispiel 1.unity
->>>>>>> c4f5d64f3cd48c5a4be2bfb898e00d54b1948dd1
   isLoaded: 1
   isActive: 1

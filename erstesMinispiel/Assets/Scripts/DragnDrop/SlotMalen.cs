@@ -44,6 +44,10 @@ public class SlotMalen : MonoBehaviour, IDropHandler
                 {
                     spritesObject.Find(objectName + 2).gameObject.GetComponent<Image>().enabled = true;
                 }
+                if(objectName == "blue")
+                {
+                    spritesObject.Find("bg").gameObject.GetComponent<Image>().enabled = true;
+                }
             }
             transform.gameObject.SetActive(false);
 

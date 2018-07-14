@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AnimateButton : MonoBehaviour {
-    double framesPerSecond = 1.0;
+    double framesPerSecond = 2.0;
     int states = 2;
 
     // Use this for initialization
