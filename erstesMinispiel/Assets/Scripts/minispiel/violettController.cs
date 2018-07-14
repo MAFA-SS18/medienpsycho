@@ -8,10 +8,14 @@ public class violettController : MonoBehaviour {
     public Rigidbody2D rb;
     public float delay = 0.5f;
     public GameManager gamemanager;
+    public GameObject Score;
+    public score scoreskript;
 
     private void Start()
     {
         gamemanager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        Score = GameObject.Find("Score");
+        scoreskript = (score)Score.GetComponent(typeof(score));
     }
 
     // Update is called once per frame
@@ -27,12 +31,18 @@ public class violettController : MonoBehaviour {
         switch (gamemanager.stage)
         {
             case 3:
+                Destroy(gameObject);
+                scoreskript.scoreUpdate();
                 gamemanager.level04();
                 break;
             case 8:
+                Destroy(gameObject);
+                scoreskript.scoreUpdate();
                 gamemanager.level09();
                 break;
             default:
+                Destroy(gameObject);
+                scoreskript.resetScore();
                 gamemanager.EndGame();
                 break;
         }
