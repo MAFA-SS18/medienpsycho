@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/00 welcome.unity
+- path: Assets/Scenes/02.5 Minispiel 1.unity
   isLoaded: 1
   isActive: 1
