@@ -819,9 +819,11 @@ GameObject:
   m_Component:
   - component: {fileID: 733296751}
   - component: {fileID: 733296750}
+  - component: {fileID: 733296755}
   - component: {fileID: 733296749}
   - component: {fileID: 733296752}
   - component: {fileID: 733296753}
+  - component: {fileID: 733296754}
   m_Layer: 0
   m_Name: chamtest
   m_TagString: Player
@@ -879,7 +881,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b57f32ff305cbc4f985bee07e9abfda, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1a059f5708c81a7458b7506d2ed5f90d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -938,7 +940,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 71.29, y: 41.889996}
+    oldSize: {x: 71, y: 38.63}
     newSize: {x: 0.25, y: 0.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -947,6 +949,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 74.0923, y: 43.08841}
   m_EdgeRadius: 0
+--- !u!95 &733296754
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733296748}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c63ae9c25fa29c44ac0011e9806ec57, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &733296755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733296748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83438d8efffffc4f8af27d7e54a3bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300000, guid: 0b57f32ff305cbc4f985bee07e9abfda, type: 3}
+  - {fileID: 21300000, guid: 1a059f5708c81a7458b7506d2ed5f90d, type: 3}
 --- !u!1 &815831144
 GameObject:
   m_ObjectHideFlags: 0

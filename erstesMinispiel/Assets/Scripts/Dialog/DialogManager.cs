@@ -46,6 +46,7 @@ public class DialogManager : MonoBehaviour {
         {
             EndDialog();
             pinguin.enabled = true;
+            GameObject.Find("DisableHover").SetActive(false);
             return;
         }
         string sentence = sentences.Dequeue();
