@@ -46,6 +46,10 @@ public class DialogManager1 : MonoBehaviour {
         if (sentences.Count == 0)
         {
             EndDialog();
+            if (GameObject.Find("DisableHover"))
+            {
+                GameObject.Find("DisableHover").SetActive(false);
+            }
             back.enabled = true;
             black.enabled = true;
             white.enabled = true;
@@ -63,6 +67,10 @@ public class DialogManager1 : MonoBehaviour {
         animator.SetBool("IsOpen", true);
         if (sentences.Count == 0)
         {
+            if (GameObject.Find("DisableHover"))
+            {
+                GameObject.Find("DisableHover").SetActive(false);
+            }
             EndDialog();
             return;
         }
