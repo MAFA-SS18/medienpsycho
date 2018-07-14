@@ -1,6 +1,6 @@
-WindowsStandalone
+WebGL
 PlayerPath?
-C:/Users/ahmad/Dropbox/Psycho/colorcycleDesktop/colorcycleDesktop.exe
+C:/Users/ahmad/Dropbox/Psycho/colorcycle
 SceneListBegin?
 Assets/Scenes/00 welcome.unity
 Assets/Scenes/01 Arktis.unity
@@ -145,6 +145,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.greenController
 1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.blueController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SlotPrimary
+47b224143ceb0c90a38823cc595c48a7 Assembly-CSharp.dll:.AnimateLeon
 1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.wrongController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Slot
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BGSoundScript
@@ -189,6 +190,5 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.homeController
 b70294e7b1dcc6e9bfafe2eae4d2232e Assembly-CSharp.dll:.EndController
 4c44bc7f0daa989aacce20914536b775 Assembly-CSharp.dll:.GameManager
-1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.yellowController
-47b224143ceb0c90a38823cc595c48a7 Assembly-CSharp.dll:.AnimateLeon
 cfdcb3b31442da7318863834fa5036ca Assembly-CSharp.dll:.score
+1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.yellowController
