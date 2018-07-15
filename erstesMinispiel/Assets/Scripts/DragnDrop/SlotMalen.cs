@@ -52,10 +52,11 @@ public class SlotMalen : MonoBehaviour, IDropHandler
             transform.gameObject.SetActive(false);
 
         }
-        if(palette.childCount == 2)
+        if(palette.childCount == 3)
         {
             spritesObject.gameObject.SetActive(false);
             GameObject.Find("ImageComplete").GetComponent<Image>().enabled = true;
+            this.SetActiveAllChildren(GameObject.Find("WeiterParent").transform, true);
         }
     }
 
