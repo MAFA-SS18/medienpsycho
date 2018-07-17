@@ -348,6 +348,8 @@ MonoBehaviour:
   redbool: 0
   yellowbool: 0
   bluebool: 0
+  obj: {fileID: 0}
+  next: {fileID: 0}
 --- !u!4 &325730624
 Transform:
   m_ObjectHideFlags: 0
@@ -393,15 +395,14 @@ MonoBehaviour:
   dialog:
     name: Itten
     sentences:
-    - "Hallo!\r\nIch  bin  Johannes  Itten  und  von  Beruf  Maler  und  Lehrer.\r\n"
+    - "Hallo!\r\nIch bin Johannes Itten und von Beruf  Maler und Lehrer.\r\n"
     - "Viele Jahre habe ich die Theorie der Farben erforscht. Das Ergebnis war der
       Farbkreis, den du bereits in diesem Spiel  kennen gelernt hast.\r"
-    - "Nun  wei\xDFt  du,  dass  die Grundfarben  Rot,  Blau  und  Gelb  durch  das
-      \ gegenseitige  Mischen  weitere  Farben  hervorbringen.  \r"
-    - "Was  passiert,  wenn  du  nun  die  sekund\xE4ren  Farben  miteinander  mischst?
-      \ \r"
-    - "Ich  m\xF6chte  gerne  ein  Bild  malen  und  habe  noch  nicht  alle  Farben
-      \ zusammen.\r\nHilfst  du  mir  dabei?"
+    - "Nun wei\xDFt du, dass die Grundfarben Rot,  Blau und Gelb durch das gegenseitige
+      \ Mischen weitere Farben hervorbringen.  \r"
+    - "Was passiert, wenn du nun die  sekund\xE4ren Farben miteinander mischst?  \r"
+    - "Ich m\xF6chte gerne ein Bild malen und  habe noch nicht alle Farben zusammen.\r\nHilfst
+      du mir dabei?"
 --- !u!1 &459445124
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,8 +964,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 266, y: -21}
-  m_SizeDelta: {x: 62.2, y: 23.4}
+  m_AnchoredPosition: {x: 282, y: -20}
+  m_SizeDelta: {x: 30, y: 23.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838309860
 MonoBehaviour:

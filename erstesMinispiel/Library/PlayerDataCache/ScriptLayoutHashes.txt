@@ -192,3 +192,4 @@ b70294e7b1dcc6e9bfafe2eae4d2232e Assembly-CSharp.dll:.EndController
 4c44bc7f0daa989aacce20914536b775 Assembly-CSharp.dll:.GameManager
 cfdcb3b31442da7318863834fa5036ca Assembly-CSharp.dll:.score
 1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.yellowController
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Credits

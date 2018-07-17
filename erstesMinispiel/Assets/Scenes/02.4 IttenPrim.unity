@@ -443,6 +443,8 @@ MonoBehaviour:
   redbool: 0
   yellowbool: 0
   bluebool: 0
+  obj: {fileID: 0}
+  next: {fileID: 0}
 --- !u!4 &325730624
 Transform:
   m_ObjectHideFlags: 0
@@ -1337,8 +1339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 266, y: -21}
-  m_SizeDelta: {x: 62.2, y: 23.4}
+  m_AnchoredPosition: {x: 282, y: -20}
+  m_SizeDelta: {x: 30, y: 23.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838309860
 MonoBehaviour:

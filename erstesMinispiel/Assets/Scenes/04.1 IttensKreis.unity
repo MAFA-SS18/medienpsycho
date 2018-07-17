@@ -608,6 +608,7 @@ MonoBehaviour:
     - Wie du siehst fehlen noch immer ein paar Farben im Farbkreis.
     - "Versuch sie doch mal mit den \xFCbrigen Farben zu mischen, damit wir ihm helfen
       k\xF6nnen. "
+    - Die Farben kannst du von den Seiten ziehen.
 --- !u!1001 &379831547
 Prefab:
   m_ObjectHideFlags: 0
@@ -2358,8 +2359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 266, y: -21}
-  m_SizeDelta: {x: 62.2, y: 23.4}
+  m_AnchoredPosition: {x: 282, y: -20}
+  m_SizeDelta: {x: 30, y: 23.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838309860
 MonoBehaviour:
