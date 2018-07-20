@@ -64,7 +64,7 @@ public class DialogManager1 : MonoBehaviour {
         {
             if(obj.name == "Draggables")
             {
-                if(sentences.Count == 4 || sentences.Count == 3)
+                if(sentences.Count == 5 || sentences.Count == 4)
                 {
                     next.GetComponent<Image>().enabled = false;
                 }

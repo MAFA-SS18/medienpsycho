@@ -185,6 +185,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SlotMalen
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Credits
 33275e70c0ad19990d989f2407bdf164 Assembly-CSharp.dll:.ImageTrigger1
 62d0c37de9a277944a3cde490f75cebd Assembly-CSharp.dll:.DialogTrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.homeController
@@ -192,4 +193,3 @@ b70294e7b1dcc6e9bfafe2eae4d2232e Assembly-CSharp.dll:.EndController
 4c44bc7f0daa989aacce20914536b775 Assembly-CSharp.dll:.GameManager
 cfdcb3b31442da7318863834fa5036ca Assembly-CSharp.dll:.score
 1c5580a9e600b8b3b4f06700c1c54299 Assembly-CSharp.dll:.yellowController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Credits
